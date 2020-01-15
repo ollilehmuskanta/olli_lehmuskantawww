@@ -1,7 +1,7 @@
 .flexContainer{
     display:flex;
     background-color: rgb(255, 255, 255);
-    align-content: space-between;
+    align-content:space-between;
     flex-wrap:wrap;
     
 }
@@ -13,35 +13,46 @@ header{
     text-align: center;
     font-style: bold;
     font-family: fantasy;
+    
 }
 
 article{
     font-size: 30px;
     background-color: wheat;
     text-align: left;
+    width: 100%;
+   
+    
+    
 }
 
-article > p{
+article> p{
     font-size: 14px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+
 }
 
 footer{
     background-color: teal;
     height: 100px;
     text-align: center;
-    vertical-align: auto;
+    padding: 10px;
+    
 }
 
 ul{
     text-align: left;
     font-size: 25px;
+    float: left;
 }
 
 aside{
     background-color:royalblue;
     width: 200px;
-    height: auto
+    height: 300px;
+    
+
 }
 
 
