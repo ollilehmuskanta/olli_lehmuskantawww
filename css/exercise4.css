@@ -1,3 +1,8 @@
+body{
+    background-color: whitesmoke
+}
+
+
 .flexContainer{
     display:flex;
     background-color: rgb(255, 255, 255);
@@ -9,10 +14,12 @@
 
 header{
     background-color: yellowgreen;
-    font-size: 150px;
+    font-size: 70px;
     text-align: center;
     font-style: bold;
     font-family: fantasy;
+    height: 80px;
+    
     
 }
 
@@ -20,9 +27,10 @@ article{
     font-size: 30px;
     background-color: wheat;
     text-align: left;
-    width: 100%;
-   
-    
+    float: left;
+    width: 600px;
+    padding-left:10px;
+    flex: auto;
     
 }
 
@@ -30,14 +38,16 @@ article> p{
     font-size: 14px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: left;
+    width: 600px;
 
 }
 
 footer{
     background-color: teal;
-    height: 100px;
     text-align: center;
+    font-size: 30px;
     padding: 10px;
+    height: 80px;
     
 }
 
@@ -45,14 +55,20 @@ ul{
     text-align: left;
     font-size: 25px;
     float: left;
+    height: 200px;
+    
 }
 
 aside{
     background-color:royalblue;
-    width: 200px;
-    height: 300px;
-    
+    text-align: left;
+    padding-right:10px;
+    flex: auto;
+}
 
+img{
+    border-color: royalblue;
+    padding: 10px;
 }
 
 
