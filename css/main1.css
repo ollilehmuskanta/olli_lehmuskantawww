@@ -20,3 +20,17 @@
     background-color: red;
     flex-direction: column;
 }
+
+.box{
+    float:right;
+    width:200px;
+    margin:20px;
+    background-color: green;
+    min-height: 400px;
+}
+
+header,footer{
+    height:100px;
+    background-color: yellow;
+}
+
