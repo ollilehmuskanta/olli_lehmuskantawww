@@ -1,0 +1,97 @@
+LINKKEJÄ:
+
+https://raw.githubusercontent.com/dipaish/www2020/master/docs/css/learncss.css
+https://devhints.io/bootstrap
+https://hackerthemes.com/bootstrap-cheatsheet/
+https://www.creative-tim.com/cheatsheet/bootstrap4
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+JOTTA BOOTSTRAP TOIMISI:
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+VAADITTAVAT JAVASCRIPTIT BOOTSTRAPPIIN:
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>   
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HTML:
+ENNEN BODYÄ
+
+<link rel ="stylesheet" href ="css/main2.css"> haetaan css tiedosto jota html käyttää
+<meta charset="utf-8">  aakkoset
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> jotain netti juttui
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE> dokumentin tyyppi
+<html> alku ja lopetus
+<title> sivun oma otsikko
+<head> mitä ei näy muille
+<body> mitä näkyy muille
+<p> perus tekstii
+<h1-h6> headingi h1 iso h6 pieni
+<div> jakaa jutut pienempiin kategorioihin
+<ul> <li> lista epäjärjestyksessä
+<ol> <li> lista järjestyksessä
+<img src=""> kuvan haku
+<a href =""> linkki
+<br> linjan rikkominen??
+<style> muuttaa html elementtejä inlinenä
+<header> otsikko
+<footer> loppu
+<article> artikkeli
+<nav> navigointi 
+<content>
+<note>
+<link rel="">
+<u> alleviivaus
+<meta> meta data juttuja jotka määrittää tietyt asiat (kuten aakkoset jne)
+(<meta charset="utf-8">)
+(<meta http-equiv="X-UA-Compatible" content="IE=edge">)
+<button>
+<table>
+
+
+class=""
+id=""
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+FONT:
+strong (important text)
+b (bold text)
+em (emphasized text)
+small (small text)
+mark (marked text)
+i (italic)
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+CSS:
+
+display:flex jne
+color
+background color
+align-content
+text-align
+line-height
+font-size
+font-family
+width
+max width
+height
+.classin nimi
+#class
+
+
+CLASSES
+
+"col-sm-randomnumber" monta eri "laatikkoa"
+"page-footer font-small blue bg-light"
