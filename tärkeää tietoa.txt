@@ -86,6 +86,10 @@ display:flex jne
 color
 background color
 align-content
+margin
+padding
+background image
+
 text-align
 line-height
 font-size
@@ -100,4 +104,4 @@ height
 CLASSES
 
 "col-sm-randomnumber" monta eri "laatikkoa"
-"page-footer font-small blue bg-light"
+"page-footer"
