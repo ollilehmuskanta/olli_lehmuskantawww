@@ -1,4 +1,10 @@
-LINKKEJÄ:
+
+<meta charset="utf-8">
+
+
+LINKKEJï¿½:
+
+
 
 https://raw.githubusercontent.com/dipaish/www2020/master/docs/css/learncss.css
 https://devhints.io/bootstrap
@@ -20,9 +26,9 @@ VAADITTAVAT JAVASCRIPTIT BOOTSTRAPPIIN:
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 HTML:
-ENNEN BODYÄ
+ENNEN BODYï¿½
 
-<link rel ="stylesheet" href ="css/main2.css"> haetaan css tiedosto jota html käyttää
+<link rel ="stylesheet" href ="css/main2.css"> haetaan css tiedosto jota html kï¿½yttï¿½ï¿½
 <meta charset="utf-8">  aakkoset
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> jotain netti juttui
 
@@ -31,17 +37,17 @@ ENNEN BODYÄ
 <!DOCTYPE> dokumentin tyyppi
 <html> alku ja lopetus
 <title> sivun oma otsikko
-<head> mitä ei näy muille
-<body> mitä näkyy muille
+<head> mitï¿½ ei nï¿½y muille
+<body> mitï¿½ nï¿½kyy muille
 <p> perus tekstii
 <h1-h6> headingi h1 iso h6 pieni
 <div> jakaa jutut pienempiin kategorioihin
-<ul> <li> lista epäjärjestyksessä
-<ol> <li> lista järjestyksessä
+<ul> <li> lista epï¿½jï¿½rjestyksessï¿½
+<ol> <li> lista jï¿½rjestyksessï¿½
 <img src=""> kuvan haku
 <a href =""> linkki
 <br> linjan rikkominen??
-<style> muuttaa html elementtejä inlinenä
+<style> muuttaa html elementtejï¿½ inlinenï¿½
 <header> otsikko
 <footer> loppu
 <article> artikkeli
@@ -50,7 +56,7 @@ ENNEN BODYÄ
 <note>
 <link rel="">
 <u> alleviivaus
-<meta> meta data juttuja jotka määrittää tietyt asiat (kuten aakkoset jne)
+<meta> meta data juttuja jotka mï¿½ï¿½rittï¿½ï¿½ tietyt asiat (kuten aakkoset jne)
 (<meta charset="utf-8">)
 (<meta http-equiv="X-UA-Compatible" content="IE=edge">)
 <button>
